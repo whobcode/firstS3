@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ace’s Inquisitive Inquiries</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1418.0.min.js"></script>
-  <script src="script.js"></script>
-
-</head>
-
-<body>
-  <header>
-    <h1>Ace’s Inquisitive Inquiries</h1>
-  </header>
-
-  <main>
-    <h2>Welcome to Ace's Inquisitive Inquiries</h2> 
-    <p>Your go-to place for if you're people in need of services, to be connected with services in need of people.</p>
-    <h2><strong>SERVICES NEEDED?</strong></h2>
-    <form id="service-form">
-      <input type="text" id="fullName" name="fullName" placeholder="Your Full Name" required />
-      <input type="text" id="address" name="address" placeholder="Your Address" required />
-      <input type="tel" id="phone" name="phone" placeholder="Phone Number" required />
-      <textarea id="description" name="description" placeholder="Describe the services you need..." required></textarea>
-      <button type="submit">Submit</button>
-    </form>
-    
-  </main>
-
-  <footer>
-    &copy; © 2025 Ace’s Inquisitive Inquiries
-  </footer>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ace’s Inquisitive Inquiries</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1418.0.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Ace’s Inquisitive Inquiries</h1>
+    </header>
+    <main>
+      <h2>Welcome to Ace's Inquisitive Inquiries</h2> 
+      <p style="font-size:22px;">"We're your go-to spot for connecting people who need a hand with everyday tasks—like taking your dumpster to the road and back, washing it out, or even weekly dog poop scooping—with folks who are ready to help. Whether it's small chores or regular services, we make it easy to find the right person for the job." <br> - J.G.Ace</p>
+      <h2><strong>SERVICES NEEDED?</strong></h2>
+      <form id="service-form">
+        <input type="text" id="fullName" name="fullName" placeholder="Your Full Name" required />    
+        <input type="text" id="street" name="street" placeholder="Street Address" required />
+        <input type="text" id="apartment" name="apartment" placeholder="Apartment, Suite, etc. (optional)" />
+        <div class="city-state">
+          <input type="text" id="city" name="city" placeholder="City" required />
+          <input type="text" id="state" name="state" placeholder="State" required />
+        </div>
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required />
+        <textarea id="description" name="description" placeholder="Describe the services you need..." required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer>
+      <div class="footer-nav">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Ace</a>
+      </div>
+      <div class="footer-bar">
+        &copy; 2025 Ace’s Inquisitive Inquiries
+        <img src="hero.jpg" alt="Ace Icon" />
+      </div>
+    </footer>
+  </body>
 </html>
-
