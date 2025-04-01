@@ -101,3 +101,6 @@ If you run into issues, make sure:
 - ✅ **CORS configuration** is correctly set  
 - ✅ Your **Cognito Identity Pool** is public or properly authorized  
 - ✅ All AWS resources (**S3**, **IAM**, **Cognito**) are in the same **region**
+
+
+thanks
